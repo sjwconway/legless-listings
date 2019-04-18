@@ -12,7 +12,7 @@ class ListingsController < ApplicationController
             render "new"
 
         else
-            redirect_to listing_path
+            redirect_to listings_path
         end
         
     end
